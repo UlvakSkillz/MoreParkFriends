@@ -3,7 +3,7 @@ using UnityEngine;
 using RUMBLE.Environment;
 using HarmonyLib;
 
-[HarmonyPatch(typeof(ParkBoardGymVariant), "OnPlayerEnteredTrigger")] // Example is the name of the class
+[HarmonyPatch(typeof(ParkBoardGymVariant), "OnPlayerEnteredTrigger")]
 public static class Patch
 {
     private static void Prefix()
