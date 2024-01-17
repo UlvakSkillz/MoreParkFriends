@@ -72,6 +72,10 @@
     <Reference Include="UnhollowerBaseLib">
       <HintPath>F:\SteamLibrary\steamapps\common\RUMBLE\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\SteamLibrary\steamapps\common\RUMBLE\MelonLoader\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>F:\SteamLibrary\steamapps\common\RUMBLE\MelonLoader\Managed\UnityEngine.dll</HintPath>
     </Reference>

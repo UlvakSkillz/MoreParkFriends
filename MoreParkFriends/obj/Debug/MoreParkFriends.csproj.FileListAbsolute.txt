@@ -118,8 +118,8 @@ C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.XR.M
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSystem.Numerics.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\PhotonVoice.API.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\MelonLoader.xml
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.csproj.AssemblyReference.cache
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.csproj.CoreCompileInputs.cache
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.csproj.CopyComplete
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.pdb
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.csproj.AssemblyReference.cache
