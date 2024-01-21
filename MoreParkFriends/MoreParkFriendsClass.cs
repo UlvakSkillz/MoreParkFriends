@@ -11,7 +11,7 @@ public static class Patch
     private static void Prefix()
     {
         int multiplier = MoreParkFriendsClass.multiplier;
-        ParkBoardGymVariant parkBoardGymVariant = GameObject.Find("--------------LOGIC--------------/Heinhouser products/Parkboard").gameObject.GetComponent<ParkBoardGymVariant>();
+        ParkBoardGymVariant parkBoardGymVariant = GameObject.Find("--------------LOGIC--------------/Heinhouser products/Parkboard").GetComponent<ParkBoardGymVariant>();
         parkBoardGymVariant.hostPlayerCapacity *= multiplier;
     }
 }

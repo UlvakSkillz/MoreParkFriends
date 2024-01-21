@@ -11,7 +11,7 @@ using MoreParkFriends; // The namespace of your mod class
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MoreParkFriends")]
-[assembly: AssemblyDescription("Adds x2 Selected Park Players")]
+[assembly: AssemblyDescription("Increases Selectable Park Player Count")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MoreParkFriends")]
