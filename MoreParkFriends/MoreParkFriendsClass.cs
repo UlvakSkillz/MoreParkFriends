@@ -3,6 +3,8 @@ using UnityEngine;
 using RUMBLE.Environment;
 using HarmonyLib;
 using MoreParkFriends;
+using System.Collections;
+using System.IO;
 
 [HarmonyPatch(typeof(ParkBoardGymVariant), "OnPlayerEnteredTrigger")]
 public static class Patch
@@ -18,9 +20,16 @@ public static class Patch
 
 namespace MoreParkFriends
 {
-    public class MoreParkFriendsClass : MelonMod 
+    public class MoreParkFriendsClass : MelonMod
     {
-        public static int multiplier = int.Parse(System.IO.File.ReadAllText(@"UserData\MoreParkFriends\Multiplier.txt"));
+        public string FILEPATH = @"UserData\MoreParkFriends";
+        public string FILENAME = @"Multiplier.txt";
+        public static int multiplier = 2;
+
+        public override void OnLateInitializeMelon()
+        {
+            MelonCoroutines.Start(CheckIfFileExists(FILEPATH, FILENAME));
+        }
 
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
@@ -41,6 +50,33 @@ namespace MoreParkFriends
                     gameObject.transform.GetChild(i).GetComponent<TMPro.TextMeshPro>().text = ((1+i) * multiplier).ToString();
                 }
             }
+        }
+
+        public IEnumerator CheckIfFileExists(string filePath, string fileName)
+        {
+            if (!File.Exists($"{filePath}\\{fileName}"))
+            {
+                if (!Directory.Exists(filePath))
+                {
+                    MelonLogger.Msg($"Folder Not Found, Creating Folder: {filePath}");
+                    Directory.CreateDirectory(filePath);
+                }
+                if (!File.Exists($"{filePath}\\{fileName}"))
+                {
+                    MelonLogger.Msg($"Creating File {filePath}\\{fileName}");
+                    File.Create($"{filePath}\\{fileName}");
+                }
+                multiplier = 2;
+                for (int i = 0; i < 60; i++) { yield return new WaitForFixedUpdate(); }
+                string[] newFileText = new string[1];
+                newFileText[0] = "2";
+                File.WriteAllLines($"{filePath}\\{fileName}", newFileText);
+            }
+            else
+            {
+                multiplier = int.Parse(File.ReadAllLines($"{FILEPATH}\\{FILENAME}")[0]);
+            }
+            yield return null;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using MelonLoader;
 using MoreParkFriends; // The namespace of your mod class
 // ...
-[assembly: MelonInfo(typeof(MoreParkFriendsClass), "More Park Friends", "1.0.1", "UlvakSkillz")]
+[assembly: MelonInfo(typeof(MoreParkFriendsClass), "More Park Friends", "1.1.0", "UlvakSkillz")]
 [assembly: MelonGame("Buckethead Entertainment", "RUMBLE")]
 
 // General Information about an assembly is controlled through the following
