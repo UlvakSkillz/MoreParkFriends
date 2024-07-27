@@ -1,6 +1,6 @@
 ﻿using MelonLoader;
 using UnityEngine;
-using RUMBLE.Environment;
+using Il2CppRUMBLE.Environment;
 using HarmonyLib;
 using MoreParkFriends;
 using System.Collections;
@@ -9,7 +9,6 @@ using System.IO;
 [HarmonyPatch(typeof(ParkBoardGymVariant), "OnPlayerEnteredTrigger")]
 public static class Patch
 {
-
     private static void Prefix()
     {
         int multiplier = MoreParkFriendsClass.multiplier;
@@ -47,7 +46,7 @@ namespace MoreParkFriends
                 GameObject gameObject = GameObject.Find("--------------LOGIC--------------/Heinhouser products/Parkboard/RotatingScreen/HostPanel/Player Cpapcity/TextandIcons/");
                 for (int i = 1; i <= 5; i++)
                 {
-                    gameObject.transform.GetChild(i).GetComponent<TMPro.TextMeshPro>().text = ((1+i) * multiplier).ToString();
+                    gameObject.transform.GetChild(i).GetComponent<Il2CppTMPro.TextMeshPro>().text = ((1+i) * multiplier).ToString();
                 }
             }
         }
