@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\austi\\source\\repos\\MoreParkFriends\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{674BB24A-E35E-4068-8DBE-20E510A504BA}|MoreParkFriends\\MoreParkFriends.csproj|c:\\users\\austi\\source\\repos\\moreparkfriends\\moreparkfriends\\moreparkfriendsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674BB24A-E35E-4068-8DBE-20E510A504BA}|MoreParkFriends\\MoreParkFriends.csproj|solutionrelative:moreparkfriends\\moreparkfriendsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoreParkFriendsClass.cs",
+              "DocumentMoniker": "C:\\Users\\austi\\source\\repos\\MoreParkFriends\\MoreParkFriends\\MoreParkFriendsClass.cs",
+              "RelativeDocumentMoniker": "MoreParkFriends\\MoreParkFriendsClass.cs",
+              "ToolTip": "C:\\Users\\austi\\source\\repos\\MoreParkFriends\\MoreParkFriends\\MoreParkFriendsClass.cs",
+              "RelativeToolTip": "MoreParkFriends\\MoreParkFriendsClass.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:22:08.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
