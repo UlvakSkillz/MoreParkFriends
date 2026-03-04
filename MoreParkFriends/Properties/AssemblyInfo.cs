@@ -1,14 +1,13 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using MelonLoader;
 using MoreParkFriends; // The namespace of your mod class
 // ...
-[assembly: MelonInfo(typeof(MoreParkFriendsClass), "More Park Friends", "2.0.1", "UlvakSkillz")]
+[assembly: MelonInfo(typeof(MoreParkFriendsClass), "More Park Friends", "2.2.1", "UlvakSkillz")]
 [assembly: MelonGame("Buckethead Entertainment", "RUMBLE")]
 [assembly: MelonColor(255, 195, 0, 255)]
 [assembly: MelonAuthorColor(255, 195, 0, 255)]
-[assembly: VerifyLoaderVersion(0, 6, 2, true)]
+[assembly: VerifyLoaderVersion(0, 7, 1, true)]
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information

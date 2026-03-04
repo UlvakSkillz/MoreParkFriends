@@ -10,7 +10,6 @@ C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\MonoMod.Ut
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\MonoMod.RuntimeDetour.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.TextMeshPro.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\bHapticsLib.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\AssetRipper.VersionUtilities.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\AssetsTools.NET.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Tomlet.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Mono.Cecil.Pdb.dll
@@ -51,7 +50,6 @@ C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSyst
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.Mathematics.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.XR.Management.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSystem.Numerics.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\MelonLoader.xml
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.csproj.CoreCompileInputs.cache
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MoreParkFriends.dll
@@ -66,7 +64,6 @@ C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppPhot
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppPlayFab.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppPhotonChat.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSmartLocalization.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppRUMBLE.Rendering.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppPhotonVoice.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppRUMBLE.Platform.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppRUMBLE.Platform.Info.Steam.dll
@@ -81,7 +78,6 @@ C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2Cppcom.
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\System.Text.Json.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Microsoft.Diagnostics.NETCore.Client.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppInterop.Common.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppLIV.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppInterop.Generator.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppInterop.Runtime.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppInterop.HarmonySupport.dll
@@ -93,9 +89,7 @@ C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\MonoMod.IL
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\obj\Debug\MorePark.F4233AA9.Up2Date
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppLIV.LCK.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppLIV.NativeAudioBridge.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSystem.Net.Http.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppNativeGallery.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppNewtonsoft.Json.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.VisualEffectGraph.Runtime.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.RenderPipelines.GPUDriven.Runtime.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.Collections.dll
@@ -103,8 +97,14 @@ C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\UnityEngin
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\UnityEngine.PropertiesModule.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\UnityEngine.HierarchyCoreModule.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\UnityEngine.InputForUIModule.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSystem.Runtime.Serialization.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSystem.Data.dll
-C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSystem.Xml.Linq.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\UnityEngine.TerrainModule.dll
 C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.Burst.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\RumbleModdingAPI.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Unity.Profiling.Core.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\AssetRipper.Primitives.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Iced.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppLIV.LCKCore.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppLIV.LCKCore.ThirdParty.MessagePack.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\MelonLoader.pdb
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\Il2CppSystem.Numerics.dll
+C:\Users\austi\source\repos\MoreParkFriends\MoreParkFriends\bin\Debug\ModUI.dll
