@@ -1,43 +1,9 @@
-﻿using System.Reflection;
-using System.Runtime.InteropServices;
-using MelonLoader;
+﻿using MelonLoader;
 using MoreParkFriends; // The namespace of your mod class
-// ...
-[assembly: MelonInfo(typeof(MoreParkFriendsClass), "More Park Friends", "2.2.1", "UlvakSkillz")]
-[assembly: MelonGame("Buckethead Entertainment", "RUMBLE")]
-[assembly: MelonColor(255, 195, 0, 255)]
-[assembly: MelonAuthorColor(255, 195, 0, 255)]
-[assembly: VerifyLoaderVersion(0, 7, 1, true)]
 
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("MoreParkFriends")]
-[assembly: AssemblyDescription("Increases Selectable Park Player Count")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MoreParkFriends")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+[assembly: MelonInfo(typeof(MoreParkFriendsClass), BuildInfo.ModName, BuildInfo.ModVersion, BuildInfo.Author)] //Melonloader Info for your Mod. See BuildInfo in Class File
+[assembly: MelonGame("Buckethead Entertainment", "RUMBLE")] //Tells MelonLoader this Mod is for Rumble
+[assembly: MelonColor(255, 195, 0, 255)] //Mod Name Color when Mod Loads and Logs.
+[assembly: MelonAuthorColor(255, 195, 0, 255)] //Author Color when Mod Loads.
+[assembly: VerifyLoaderVersion(0, 7, 2, true)] //MelonLoader 0.7.2 or above
 
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("674bb24a-e35e-4068-8dbe-20e510a504ba")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
