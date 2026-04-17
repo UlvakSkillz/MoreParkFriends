@@ -3,8 +3,6 @@ using Il2CppRUMBLE.Environment;
 using Il2CppRUMBLE.Interactions.InteractionBase;
 using Il2CppRUMBLE.Social;
 using Il2CppRUMBLE.Social.Phone;
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace MoreParkFriends
@@ -15,7 +13,7 @@ namespace MoreParkFriends
     {
         private static void Prefix(ref ParkBoardGymVariant __instance) //Prefix is important so it can be changed before leaving the Gym
         {
-            __instance.hostPlayerCapacity *= MoreParkFriendsClass.multiplier; //updates the Hosting Player Capacity value
+            __instance.hostPlayerCapacity *= Preferences.PrefMultiplier.Value; //updates the Hosting Player Capacity value
         }
     }
 
@@ -25,7 +23,7 @@ namespace MoreParkFriends
     {
         private static void Postfix(ref ParkBoardParkVariant __instance)
         {
-            MoreParkFriendsClass.UpdateParkBoardPlayerTags(__instance); //toggles on/off Player Tags and updates info
+            Main.UpdateParkBoardPlayerTags(__instance); //toggles on/off Player Tags and updates info
         }
     }
 
@@ -41,13 +39,13 @@ namespace MoreParkFriends
             List<PlayerTag> playerTags = ListConverter<PlayerTag>(__instance.parkBoardPlayerTags);
 
             //variables
-            int nameNumber = MoreParkFriendsClass.additionsMade;
+            int nameNumber = Main.additionsMade;
             float yOffsetNewAddition = -1.1f;
             float yOffsetNewPlayerTag = -0.649f;
             float offsetChangePerStep = -0.18f;
-            MoreParkFriendsClass.playerCap = int.Parse(__instance.currentParkPlayerCapText.text.Split('/')[1]);
+            Main.playerCap = int.Parse(__instance.currentParkPlayerCapText.text.Split('/')[1]);
 
-            while (nameNumber < MoreParkFriendsClass.playerCap) //Creates a Tag Spot for each potential player (player cap will be total)
+            while (nameNumber < Main.playerCap) //Creates a Tag Spot for each potential player (player cap will be total)
             {
                 GameObject newAddition = GameObject.Instantiate(hostIcons[0].transform.parent.gameObject); //create new Host/Kick GameObject
                 newAddition.name = $"Addition ({nameNumber})"; //name it
@@ -81,12 +79,12 @@ namespace MoreParkFriends
             __instance.hostIcons = ListConverter<GameObject>(hostIcons);
             __instance.kickButtons = ListConverter<InteractionButton>(kickButtons);
             __instance.parkBoardPlayerTags = ListConverter<PlayerTag>(playerTags);
-            MoreParkFriendsClass.UpdateParkBoardPlayerTags(__instance); //Controls the New Items starting state
+            Main.UpdateParkBoardPlayerTags(__instance); //Controls the New Items starting state
         }
 
         private static List<T> ListConverter<T>(T[] list)
         {
-            List<T> newList = new List<T>();
+            List<T> newList = new();
             foreach (var item in list) { newList.Add(item); }
             return newList;
         }
