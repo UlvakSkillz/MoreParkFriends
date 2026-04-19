@@ -343,6 +343,11 @@
             
             </summary>
         </member>
+        <member name="T:UIFramework.UIFModel.ModelDataEntryBase">
+            <summary>
+            A model for interfacing with a piece of data.
+            </summary>
+        </member>
         <member name="T:UIFramework.UIFModel.EmptyCategory">
             <summary>
             
@@ -465,7 +470,7 @@
         <member name="P:UIFramework.UIFModel.ModelMelonCategory.DisplayName">
             <inheritdoc/>
         </member>
-        <member name="M:UIFramework.UIFModel.ModelMelonCategory.#ctor(MelonLoader.MelonPreferences_Category)">
+        <member name="M:UIFramework.UIFModel.ModelMelonCategory.#ctor(MelonLoader.MelonPreferences_Category,UIFramework.UIFModel.ModelModItem)">
             <summary>
             Creates a new instance of this class based on a MelonPreferences_Category
             </summary>
@@ -497,7 +502,7 @@
             Direct access to the PrefEntry boxedvalue property
             </summary>
         </member>
-        <member name="M:UIFramework.UIFModel.ModelMelonEntry.#ctor(MelonLoader.MelonPreferences_Entry)">
+        <member name="M:UIFramework.UIFModel.ModelMelonEntry.#ctor(MelonLoader.MelonPreferences_Entry,UIFramework.UIFModel.ModelCategoryItem)">
             <summary>
             Creates a new instance of this object based around a MelonPreferences_Entry object
             </summary>
@@ -546,6 +551,15 @@
             <summary>
             
             </summary>
+        </member>
+        <member name="M:UIFramework.Core.VRActivationAction">
+            <summary>
+            Checks if activation by VR input has been pressed
+            </summary>
+            <returns></returns>
+            <remarks>
+            Code yoinked from Baumritter's ModUI
+            </remarks>
         </member>
         <member name="M:UIFramework.Debug.DiffLog(System.String,System.Boolean,System.Int32)">
             <summary>

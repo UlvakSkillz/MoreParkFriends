@@ -13,7 +13,7 @@ namespace MoreParkFriends
     public static class BuildInfo
     {
         public const string ModName = "More Park Friends";
-        public const string ModVersion = "2.4.2";
+        public const string ModVersion = "2.4.3";
         public const string Author = "UlvakSkillz";
     }
 
@@ -98,7 +98,6 @@ namespace MoreParkFriends
             {
                 //host & kick icons (scales parent called Addition)
                 float posPlayerCountClamped = (11f / 30f) * (float)Math.Sqrt((Math.Max(0, playerCount - 6f)) / 12f);
-                Melon<Main>.Logger.Msg("Clamped: " + posPlayerCountClamped);
                 __instance.hostIcons[0].transform.parent.parent.localPosition = new Vector3(0f, posPlayerCountClamped, 0f);
                 __instance.hostIcons[0].transform.parent.parent.localScale = new Vector3(1f, Math.Min(1f, 6f / playerCount), 1f);
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoreParkFriends")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1728fb657132527f96c3bc417ab5c051dd333df3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7e548b7450dafb40fe605381101357e61331941")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoreParkFriends")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoreParkFriends")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
